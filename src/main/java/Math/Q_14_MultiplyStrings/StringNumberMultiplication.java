@@ -15,6 +15,9 @@ public class StringNumberMultiplication {
     /**
      * Explanation in evernote
      *
+     * The key to solve this problem is multiplying each digit of the numbers at the corresponding positions
+     * and get the sum values at each position. That is how we do multiplication manually.
+     *
      * @param num1
      * @param num2
      * @return

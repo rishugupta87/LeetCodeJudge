@@ -12,7 +12,7 @@ package Math.Q_07_ExcelSheetColumnNumber;
  ...
  AAA -> 703
  */
-public class ExcelSheetColumnNumber {
+public class  ExcelSheetColumnNumber {
     /**
        http://www.asciitable.com/
        ascii value of A = 65
