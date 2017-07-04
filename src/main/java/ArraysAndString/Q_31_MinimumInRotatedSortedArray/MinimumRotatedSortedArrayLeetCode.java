@@ -16,7 +16,7 @@ public class MinimumRotatedSortedArrayLeetCode {
       * If it is greater than both left and right element,
       * then minimum element should be on its right, otherwise on its left.
      */
-    public int findMin(int[] num) {
+    public static int findMin(int[] num) {
         if (num == null || num.length == 0) {
             return 0;
         }
@@ -37,4 +37,10 @@ public class MinimumRotatedSortedArrayLeetCode {
         }
         return num[start];
     }
+
+    public static void main(String[] args) {
+        int[] nums = {4,5, 6, 7, 8, 9, 1, 2, 3};
+        System.out.println(findMin(nums));
+    }
+
 }

@@ -26,8 +26,6 @@ public class ReverseWords {
 
        Reverse all the characters in the entire message, giving us the correct word order but with each word backwards.
        Reverse the characters in each individual word.
-     * @param s
-     * @return
      */
     public static String reverseWords(String s) {
         final char[] chars = s.toCharArray();
@@ -48,6 +46,27 @@ public class ReverseWords {
             }
         }
         return new String(chars);
+    }
+
+    /**
+     * Another solution which takes care of souble spaces.
+     *
+     * @param s
+     * @return
+     */
+    public  String reverseWords2(String s) {
+
+        String[] strs = s.split("\\s+");
+
+        StringBuilder sb = new StringBuilder();
+
+        for(int i = strs.length - 1; i >= 0 ; i--) {
+            sb.append(strs[i]).append(" ");
+        }
+
+        String reversed = sb.toString().trim();
+
+        return reversed;
     }
 
     private static void reverseCharacters(char[] chars, int frontIndex, int backIndex) {

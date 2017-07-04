@@ -16,7 +16,9 @@
 //     */
 //    public static Node getInorderSuccessor_withParentLink(int data, final Node root) {
 //        //first search for this node in the binary tree.
-//        Node currNode = BinarySearchTree.search(root, data);
+//       // Node currNode = BinarySearchTree.search(root, data);
+//        TreeN currNode ;
+//
 //
 //        //Case 1 : If the x has a right child then
 //        // its inorder successor will the left most element in the right sub tree of x.
