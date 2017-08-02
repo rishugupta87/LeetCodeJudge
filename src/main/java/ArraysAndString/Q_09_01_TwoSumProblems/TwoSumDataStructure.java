@@ -21,7 +21,7 @@ import java.util.Map;
 
  Important Followup:
  Can we make find faster if add has just 10 elements ?
- Yes we can precompute all possible sums of pair in 10 elements and store in a set
+ Yes we can pre compute all possible sums of pair in 10 elements and store in a set
  then find can just look at this set in O(1) time
 
  Good read to increase speed : https://discuss.leetcode.com/topic/31411/my-beats-99-49-java-submission/3

@@ -1,0 +1,5 @@
+//Returns a fixed size list backed by an array
+List<String> list2 = Arrays.asList(list)
+
+//good to initialize a fixed siz list
+List<String> list = Arrays.asList("1", "2", "3");

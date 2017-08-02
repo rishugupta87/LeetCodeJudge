@@ -9,8 +9,7 @@ public class PowerNumber_Efficient {
      * @param n
      * @return
      */
-    public static double calculatePower(double x, int n)
-    {
+    public static double calculatePower(double x, int n) {
         if( n == 0)
             return 1;
 

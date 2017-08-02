@@ -47,9 +47,7 @@ public class ArrayIntersectionFollowup {
     /**
      *
      -Hash nums1 into the hashtable and increase values.
-
      -Put nums2 into the array list and decrease values in hashtable.
-
      -Convert ArrayList to array of integers.
 
      *

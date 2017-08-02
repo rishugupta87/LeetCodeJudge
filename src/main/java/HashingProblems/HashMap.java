@@ -10,7 +10,7 @@ import java.util.Collection;
  * @param <K>
  * @param <V>
  */
-public class HashMap<K, V> implements Map{
+public class HashMap<K, V> implements Map {
     Entry[] bucket;
 
     public HashMap(int size) {
